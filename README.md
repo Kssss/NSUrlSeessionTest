@@ -7,8 +7,7 @@ NSURLSession 之NSURLSessionDataTask   NSURLSessionDownloadTask
 2.上传数据
 
 3.下载数据
-![](1.png)
-![](2.png)
+
 //数据任务创建
 
 - (NSURLSessionDataTask *)dataTaskWithRequest:(NSURLRequest *)request;
@@ -30,3 +29,7 @@ NSURLSession 之NSURLSessionDataTask   NSURLSessionDownloadTask
 - (NSURLSessionDownloadTask *)downloadTaskWithURL:(NSURL *)url;
 
 - (NSURLSessionDownloadTask *)downloadTaskWithResumeData:(NSData *)resumeData;
+
+
+![](1.png)
+![](2.png)
